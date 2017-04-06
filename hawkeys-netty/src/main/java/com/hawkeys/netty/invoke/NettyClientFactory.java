@@ -4,7 +4,7 @@ package com.hawkeys.netty.invoke;
 
 import com.hawkeys.client.api.Client;
 import com.hawkeys.client.remoting.ClientFactory;
-import com.hawkeys.common.ConnectInfo;
+import com.hawkeys.common.config.ConnectInfo;
 import io.netty.channel.Channel;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;

@@ -1,11 +1,10 @@
 package com.hawkeys.core.process;
 
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.client.message.api.Message;
 import com.hawkeys.core.async.AsyncServiceRunnable;
 import com.hawkeys.core.server.ServiceProviderChannel;
 
 import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 

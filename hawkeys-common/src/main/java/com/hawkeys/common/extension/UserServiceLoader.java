@@ -1,4 +1,4 @@
-package com.hawkeys.core.extension;
+package com.hawkeys.common.extension;
 
 import java.util.ArrayList;
 import java.util.List;

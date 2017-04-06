@@ -1,6 +1,6 @@
 package com.hawkeys.netty.provider;
 
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.client.message.api.Message;
 import com.hawkeys.core.server.ServiceProviderChannel;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;

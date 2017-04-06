@@ -1,7 +1,7 @@
 package com.hawkeys.netty.code;
 
 import com.alibaba.fastjson.JSON;
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.client.message.api.Message;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;

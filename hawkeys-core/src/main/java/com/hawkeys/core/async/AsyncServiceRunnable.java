@@ -1,6 +1,6 @@
 package com.hawkeys.core.async;
 
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.client.message.api.Message;
 import com.hawkeys.core.server.ServiceProviderChannel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

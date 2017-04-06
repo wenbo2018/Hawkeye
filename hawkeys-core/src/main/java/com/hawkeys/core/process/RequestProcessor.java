@@ -1,6 +1,6 @@
 package com.hawkeys.core.process;
 
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.client.message.api.Message;
 import com.hawkeys.core.server.ServiceProviderChannel;
 
 /**

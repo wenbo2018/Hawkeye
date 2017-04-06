@@ -1,7 +1,7 @@
 package com.hawkeys.client.remoting;
 
 
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.client.message.api.Message;
 
 /**
  * Created by shenwenbo on 2017/4/2.

@@ -1,6 +1,6 @@
 package com.hawkeys.core.process;
 
-import com.hawkeys.core.extension.UserServiceLoader;
+import com.hawkeys.common.extension.UserServiceLoader;
 
 /**
  * Created by shenwenbo on 2017/4/5.

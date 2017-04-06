@@ -1,4 +1,4 @@
-package com.hawkeys.common;
+package com.hawkeys.common.config;
 
 /**
  * Created by shenwenbo on 2017/4/2.

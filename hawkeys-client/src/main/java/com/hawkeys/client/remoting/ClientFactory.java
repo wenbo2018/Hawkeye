@@ -1,6 +1,6 @@
 package com.hawkeys.client.remoting;
 
-import com.hawkeys.common.ConnectInfo;
+import com.hawkeys.common.config.ConnectInfo;
 
 /**
  * Created by shenwenbo on 2017/4/2.

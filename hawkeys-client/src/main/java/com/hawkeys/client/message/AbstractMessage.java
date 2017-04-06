@@ -1,7 +1,9 @@
-package com.hawkeys.common.message;
+package com.hawkeys.client.message;
 
 
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.client.MessageManager;
+import com.hawkeys.client.message.api.Message;
+import com.hawkeys.common.extension.UserServiceLoader;
 
 /**
  * Created by shenwenbo on 2017/4/2.
@@ -17,6 +19,8 @@ public abstract class AbstractMessage implements Message {
 
     private long m_timestampInMillis;
 
+    private String data;
+
 
     public AbstractMessage(String type, String name) {
         messageType = String.valueOf(type);
@@ -26,11 +30,13 @@ public abstract class AbstractMessage implements Message {
 
     @Override
     public void addMessage(String message) {
-
+        if (data==null) {
+            data=message;
+        }
     }
 
     @Override
-    public void sendMessage() {
-
+    public String getMessageType() {
+        return this.messageType ;
     }
 }

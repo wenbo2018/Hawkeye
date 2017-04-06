@@ -1,8 +1,8 @@
 package com.hawkeys.netty.invoke;
 
 import com.hawkeys.client.remoting.AbstractClient;
-import com.hawkeys.common.ConnectInfo;
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.common.config.ConnectInfo;
+import com.hawkeys.client.message.api.Message;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.socket.nio.NioSocketChannel;
@@ -24,7 +24,6 @@ public class NettyClient extends AbstractClient {
     private volatile boolean connected = false;
 
     private ConnectInfo connectInfo;
-
 
     public NettyClient(EventLoopGroup group, ConnectInfo connectInfo) {
         bootstrap.group(group);

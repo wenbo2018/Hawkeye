@@ -1,6 +1,6 @@
 package com.hawkeys.core.server;
 
-import com.hawkeys.common.message.api.Message;
+import com.hawkeys.client.message.api.Message;
 import com.hawkeys.core.process.RequestProcessor;
 import com.hawkeys.core.process.RequestProcessorFactory;
 import org.slf4j.Logger;
